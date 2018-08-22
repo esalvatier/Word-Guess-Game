@@ -50,7 +50,7 @@ document.onkeyup = function(event) {
     }
   }
   // checks if the game has been won or lost
-  if (guessesLeft === 0 && unguessedLetters.indexOf("_") > 0) {
+  if (guessesLeft === 0 && unguessedLetters.indexOf("_") > -1) {
     reset();
     losses++;
   } else if (guessesLeft === 0 || unguessedLetters.indexOf("_") < 0) {
