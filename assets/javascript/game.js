@@ -53,7 +53,7 @@ document.onkeyup = function(event) {
   if (guessesLeft === 0 && unguessedLetters.indexOf("_") > -1) {
     reset();
     losses++;
-  } else if (guessesLeft === 0 || unguessedLetters.indexOf("_") < 0) {
+  } else if (unguessedLetters.indexOf("_") < 0) {
     reset();
     wins++;
   }
