@@ -1,0 +1,13 @@
+body {
+  background-image: url("../images/crossed_stripes/crossed_stripes.png");
+}
+
+header {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  color: goldenrod;
+  background-image: url("../images/seamless_paper_texture/seamless_paper_texture.png");
+}
+
+.custom-container {
+  background-image: url("../images/seamless_paper_texture/seamless_paper_texture.png");
+}
